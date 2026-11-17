@@ -1,0 +1,148 @@
+/* Summit University Theme Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 7%;
+    background: #0d233a;
+    color: #ffffff;
+}
+
+.brand-logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.brand-logo span {
+    color: #eab308;
+}
+
+.nav-menu a {
+    color: #e2e8f0;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.btn-nav {
+    background: #eab308;
+    color: #0d233a !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-banner {
+    background: linear-gradient(rgba(13, 35, 58, 0.85), rgba(13, 35, 58, 0.85)), url('campus.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero-text h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: #cbd5e1;
+}
+
+.main-btn {
+    background: #eab308;
+    color: #0d233a;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* About Section */
+.about-container {
+    padding: 70px 10%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 28px;
+    color: #0d233a;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    max-width: 750px;
+    margin: 0 auto;
+    color: #475569;
+}
+
+/* Courses Section */
+.courses-container {
+    padding: 70px 7%;
+    background: #f1f5f9;
+    text-align: center;
+}
+
+.courses-container h2 {
+    font-size: 28px;
+    color: #0d233a;
+    margin-bottom: 35px;
+}
+
+.card-grid {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.course-box {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-left: 5px solid #0d233a;
+    text-align: left;
+}
+
+.course-box h3 {
+    margin-bottom: 10px;
+    color: #0d233a;
+}
+
+.course-box p {
+    color: #64748b;
+    font-size: 14px;
+}
+
+/* Footer Section */
+.main-footer {
+    background: #091727;
+    color: #94a3b8;
+    padding: 50px 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block h4 {
+    color: #ffffff;
+    margin-bottom: 12px;
+}
